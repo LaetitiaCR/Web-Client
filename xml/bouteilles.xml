@@ -1,0 +1,88 @@
+<?xml version = "1.0" encoding="UTF-8" standalone="yes" ?>
+<bouteilles>
+
+    <bouteille>
+        <nom>Eau Christalline</nom>
+        <contenance unite="cl">150</contenance>
+        <composition unite="mg/l">
+            <ions >
+                <ions_positifs>
+                    <calcium>71</calcium>
+                    <magnesium>5.5</magnesium>
+                </ions_positifs>
+                
+                <ions_negatifs>
+                    <chlorures>20</chlorures>
+                    <nitrates>1</nitrates>
+                </ions_negatifs>
+            </ions>
+            <traces>
+                <fer>en suspension</fer>
+                <silice></silice>
+            </traces>
+        </composition>
+        <sources>
+            <nom_source>St-Cyr la Source</nom_source>
+            <nom_departements>Loiret</nom_departements>
+        </sources>
+        <code_barrre>3274080005003</code_barrre>
+        <pH>7.45</pH>   
+    </bouteille>
+
+    <bouteille>
+        <nom>Eau Christalline</nom>
+        <contenance unite="cl">50</contenance>
+        <composition unite="mg/l">
+            <ions >
+                <ions_positifs>
+                    <calcium>98</calcium>
+                    <magnesium>4</magnesium>
+                </ions_positifs>
+                
+                <ions_negatifs>
+                    <chlorures>3.6</chlorures>
+                    <nitrates>2</nitrates>
+                </ions_negatifs>
+            </ions>
+            <traces>
+                <fer>en suspension</fer>
+                <silice></silice>
+            </traces>
+        </composition>
+        <sources>
+            <nom_source>Source d'Aurèle</nom_source>
+            <nom_departements>Alpes Maritimes</nom_departements>
+        </sources>
+        <code_barrre>3268840001008</code_barrre>
+        <pH>7.4</pH>   
+    </bouteille>
+    
+    <bouteille>
+            <nom>Volvic</nom>
+            <contenance unite="cl">50</contenance>
+            <composition unite="mg/l">
+                <ions >
+                    <ions_positifs>
+                        <calcium>11.5</calcium>
+                        <magnesium>8</magnesium>
+                    </ions_positifs>
+                    
+                    <ions_negatifs>
+                        <chlorures>13.5</chlorures>
+                        <nitrates>6.3</nitrates>
+                    </ions_negatifs>
+                </ions>
+                <traces>
+                    <fer></fer>
+                    <silice>particules</silice>
+                </traces>
+            </composition>
+            <sources>
+                <nom_source>Volvic</nom_source>
+                <nom_departements>Alpes Maritimes</nom_departements>
+            </sources>
+            <code_barrre>3268840001008</code_barrre>
+            <pH>7.4</pH>   
+        </bouteille>
+        
+</bouteilles>
