@@ -1,0 +1,90 @@
+header p#titreSite{
+   font-family: Arial, Helvetica, sans-serif;
+   display:inline;
+   position: relative;
+   left:15%;
+   top:15%;
+}
+
+header{
+     
+}
+header p span#point{
+    font-size: 100%;
+    color: coral;
+}
+
+header nav ul#groupeLiens{
+    display:inline;
+    position: relative;
+    top:15%;
+    left:35%;
+    
+    
+}
+header ul li{
+    margin-left: 15px;
+    display:inline;
+   
+    list-style-type:none;
+  
+  
+} 
+header ul li a {
+    font-size-adjust:80%;
+   
+    background:white;
+    color:black;
+    text-decoration:none;
+    text-align:center;
+}
+ul li a:hover {
+    color:grey;
+}  
+
+section#texteEtSurImage{  
+    display:block;
+    
+    position: relative;
+    top:30%;
+    text-align: center;
+
+}
+img{
+     
+    width: 85%;
+  
+}
+
+
+section p#titreImg{
+    font-size:200%;
+    top:35%;
+    position: absolute;
+    display:block;
+    width:80%;
+    left:10%;
+    
+}
+section p span#titreImg1{
+    display: block;
+} 
+
+section p span#titreImg2{
+    font-weight: bold;
+   
+}
+
+
+
+section div#parIci{
+    display: block;
+    top:75%;
+    position: absolute;
+    width: 20%;
+    left:40%;
+}
+
+
+
+
