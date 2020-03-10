@@ -1,0 +1,23 @@
+#div1{
+    background-color: indianred;
+    height: 150px;
+
+}
+
+#div2{
+    background-color: indigo;
+    height: 150px;
+    width: 200px;
+}
+
+#div3{
+    background-color: rgb(105, 82, 209);
+    height: 150px;
+    width: 50%;
+}
+
+#div4{
+    background-color: rgb(82, 209, 131);
+    height:100px;
+    width: 50%;
+}
