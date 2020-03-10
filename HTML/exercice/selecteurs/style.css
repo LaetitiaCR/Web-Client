@@ -1,0 +1,5 @@
+*{font-family: Verdana, Geneva, Tahoma, sans-serif}
+h1~p, h2~p, h3~p, h4~p{font-variant: small-caps}
+p+a{color: gold}
+section a{border-bottom-style: dashed; border-bottom-color: lightcoral}
+section>p{color: cadetblue}

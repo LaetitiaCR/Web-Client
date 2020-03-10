@@ -1,52 +1,61 @@
-header p#titreSite{
-   font-family: Arial, Helvetica, sans-serif;
-   display:inline;
-   position: relative;
-   left:15%;
-   top:15%;
+header#headTitre{
+   
+    position: absolute;
+    left:25%;
+    top:5%;
+      
+    
 }
 
-header{
-     
+header p#titreSite{
+  
+    display:inline;
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif; 
 }
+
+
 header p span#point{
     font-size: 100%;
     color: coral;
 }
 
-header nav ul#groupeLiens{
-    display:inline;
-    position: relative;
-    top:15%;
-    left:35%;
-    
-    
+nav#navLiensHaut{
+    position: absolute;
+    left:50%;
+    top: 5%;
 }
-header ul li{
-    margin-left: 15px;
-    display:inline;
+
+nav ul#groupeLiensHaut{
+    list-style-type:none; 
+    display: block;
    
-    list-style-type:none;
-  
-  
+   
+}
+nav ul#groupeLiensHaut li{
+    display: inline;
+    margin-left: 15px;
+    
+
 } 
-header ul li a {
-    font-size-adjust:80%;
+nav ul#groupeLiensHaut li a {
+    font-size: 1vw;
    
     background:white;
     color:black;
     text-decoration:none;
-    text-align:center;
+    
 }
-ul li a:hover {
+nav li a:hover {
     color:grey;
 }  
 
 section#texteEtSurImage{  
     display:block;
-    
-    position: relative;
-    top:30%;
+    top: 15%;
+    position: absolute;
+   
     text-align: center;
 
 }
@@ -58,10 +67,10 @@ img{
 
 
 section p#titreImg{
-    font-size:200%;
-    top:35%;
+    font-size:3vw;
+    top:15%;
     position: absolute;
-    display:block;
+  
     width:80%;
     left:10%;
     
@@ -71,6 +80,7 @@ section p span#titreImg1{
 } 
 
 section p span#titreImg2{
+    display: block;
     font-weight: bold;
    
 }
@@ -79,12 +89,41 @@ section p span#titreImg2{
 
 section div#parIci{
     display: block;
-    top:75%;
+    top:55%;
     position: absolute;
-    width: 20%;
-    left:40%;
+    
+   
+    
+    
 }
 
+button#boutIci{
+     background-color: darkorange;
+     color: white;
+     width: 6vw;
+     height:4vh;
+     border: darkorange;
+     
+}
 
+nav#navLiensBas{
+    position: absolute;
+  
+    left:50%;
+    top: 80%;
+}
+
+nav ul#groupeLiensBas{
+    list-style-type:none; 
+    display: block;
+   
+   
+}
+nav ul#groupeLiensBas li{
+    display: inline;
+    margin-left: 15px;
+    
+
+} 
 
 
