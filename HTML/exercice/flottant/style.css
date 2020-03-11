@@ -1,0 +1,12 @@
+img{
+    float: left;
+    
+}
+p{
+    clear:left;
+}
+#div1{
+    height: 80px;
+    background-color: coral;
+    overflow: hidden;
+}

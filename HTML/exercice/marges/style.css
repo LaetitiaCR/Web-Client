@@ -3,10 +3,7 @@
     width: 150px;
     position : absolute;
 }
-#div0{
-    
-   
-}
+
 #div1{
     background-color: aquamarine;
     margin: 50px 0px 0 50px;
@@ -24,9 +21,46 @@
     display: inline;
 }
 #div4{
+    margin: 250px 0px 0px 250px;
     background-color: plum;
     display: inline;
 }
 #div5{
+    margin: 150px 0px 0px 150px;
+    background-color: blue;
+}
+
+#div0{
+    height: 450px;
+    width: 450px;
+    background-color: darkgrey;
+    margin: 0px 500px 0px 500px; 
+}
+#div6{
+    background-color: aquamarine;
+    margin:50px 0px 0 50px;
+   
+    
+    
+   display: inline;
+    
+}
+#div7{
+    background-color: yellow;
+    margin: 50px 0px 0px 250px;
+    display: inline;
+}
+#div8{
+    margin: 250px 0px 0px 50px;
+    background-color: cadetblue;
+    display: inline;
+}
+#div9{
+    margin: 250px 0px 0px 250px;
+    background-color: plum;
+    display: inline;
+}
+#div10{
+    margin: 150px 0px 0px 150px;
     background-color: blue;
 }

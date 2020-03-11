@@ -1,12 +1,8 @@
 header#headTitre{
-   
     position: absolute;
     left:25%;
-    top:5%;
-      
-    
+    top:5%;   
 }
-
 header p#titreSite{
   
     display:inline;
@@ -14,87 +10,65 @@ header p#titreSite{
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif; 
 }
-
-
 header p span#point{
     font-size: 100%;
     color: coral;
 }
-
 nav#navLiensHaut{
     position: absolute;
     left:50%;
     top: 5%;
 }
-
 nav ul#groupeLiensHaut{
     list-style-type:none; 
-    display: block;
-   
-   
+    display: block; 
 }
 nav ul#groupeLiensHaut li{
     display: inline;
     margin-left: 15px;
-    
-
 } 
 nav ul#groupeLiensHaut li a {
     font-size: 1vw;
    
     background:white;
     color:black;
-    text-decoration:none;
-    
+    text-decoration:none;  
 }
 nav li a:hover {
     color:grey;
 }  
 
+
+
 section#texteEtSurImage{  
     display:block;
     top: 15%;
     position: absolute;
-   
     text-align: center;
-
 }
 img{
-     
     width: 85%;
-  
 }
-
-
 section p#titreImg{
     font-size:3vw;
     top:15%;
     position: absolute;
-  
     width:80%;
-    left:10%;
-    
+    left:10%;   
 }
 section p span#titreImg1{
     display: block;
 } 
-
 section p span#titreImg2{
     display: block;
     font-weight: bold;
-   
 }
-
-
 
 section div#parIci{
     display: block;
-    top:55%;
     position: absolute;
-    
-   
-    
-    
+    top:55%;
+    left: 47.5%;  
 }
 
 button#boutIci{
@@ -106,24 +80,23 @@ button#boutIci{
      
 }
 
+
+
 nav#navLiensBas{
+    display: block;
     position: absolute;
-  
-    left:50%;
+   
     top: 80%;
+    width: 80%;
 }
 
 nav ul#groupeLiensBas{
     list-style-type:none; 
-    display: block;
-   
-   
+    display: block; 
 }
 nav ul#groupeLiensBas li{
     display: inline;
     margin-left: 15px;
-    
-
 } 
 
 

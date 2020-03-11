@@ -1,0 +1,21 @@
+p{
+    border: 2px solid black;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    padding: 25px;
+  
+}
+.box{
+    box-sizing: border-box;
+}
+
+#p1{
+    overflow: scroll;
+}
+#p2{
+    overflow: auto;
+}
+#p3{
+    overflow: hidden;
+}
