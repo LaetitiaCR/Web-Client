@@ -1,66 +1,105 @@
-.div{
+.div {
     height: 150px;
     width: 150px;
-    position : absolute;
+    position: absolute;
 }
 
-#div1{
+#div1 {
     background-color: aquamarine;
-    margin: 50px 0px 0 50px;
-   display: inline;
-    
+    margin: 50px 0px 0px 50px;
+    display: inline;
 }
-#div2{
+
+#div2 {
     background-color: yellow;
     margin: 50px 0px 0px 250px;
     display: inline;
 }
-#div3{
+
+#div3 {
     margin: 250px 0px 0px 50px;
     background-color: cadetblue;
     display: inline;
 }
-#div4{
+
+#div4 {
     margin: 250px 0px 0px 250px;
     background-color: plum;
     display: inline;
 }
-#div5{
+
+#div5 {
     margin: 150px 0px 0px 150px;
     background-color: blue;
 }
 
-#div0{
+#div0 {
     height: 450px;
     width: 450px;
     background-color: darkgrey;
-    margin: 0px 500px 0px 500px; 
+    margin: 0px 500px 0px 500px;
 }
-#div6{
+
+#div6 {
     background-color: aquamarine;
-    margin:50px 0px 0 50px;
-   
-    
-    
-   display: inline;
-    
+    margin: 50px 0px 0px 50px;
+    display: inline;
 }
-#div7{
+
+#div7 {
     background-color: yellow;
     margin: 50px 0px 0px 250px;
     display: inline;
 }
-#div8{
+
+#div8 {
     margin: 250px 0px 0px 50px;
     background-color: cadetblue;
     display: inline;
 }
-#div9{
+
+#div9 {
     margin: 250px 0px 0px 250px;
     background-color: plum;
     display: inline;
 }
-#div10{
+
+#div10 {
     margin: 150px 0px 0px 150px;
+    background-color: blue;
+}
+
+.divBis {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+}
+
+#div11 {
+    background-color: aquamarine;
+    margin: 500px 0px 0px 0px;
+    display: inline;
+}
+
+#div12 {
+    background-color: yellow;
+    margin: 650px 0px 0px 0px;
+    display: inline;
+}
+
+#div13 {
+    margin: 575.5px 0px 0px 44.25%;
+    background-color: cadetblue;
+    display: inline;
+}
+
+#div14 {
+    margin: 500px 0px 0px 89.5%;
+    background-color: plum;
+    display: inline;
+}
+
+#div15 {
+    margin: 650px 0px 0px 89.5%;
     background-color: blue;
 }

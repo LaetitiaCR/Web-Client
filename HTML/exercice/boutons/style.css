@@ -1,0 +1,16 @@
+#bouton1 {
+    background-color: orange;
+    border-radius: 20px;
+    border: 1px solid black;
+    color: white;
+    height: 50px;
+    width: 120px;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+}
+
+#bouton1:hover {
+    color: gray;
+}

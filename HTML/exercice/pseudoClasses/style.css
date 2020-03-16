@@ -1,27 +1,26 @@
-ul#listeZero{
+ul#listeZero {
     list-style-type: none;
-    
 }
 
-a{
+a {
     text-decoration-color: white;
+    color: gray;
 }
 
-ul#listeUn{
+ul#listeUn {
     list-style-type: square;
-
 }
 
-ol#listeDeux{
+ol#listeDeux {
     list-style-type: upper-roman;
 }
 
-ul#listeTrois{
+ul#listeTrois {
     list-style-image: url(imgListStyle.png);
-
 }
 
-a:hover{
-    background-color: gainsboro;
+a:hover {
+    background-color: blue;
     text-decoration-color: aquamarine;
+    color: white;
 }
