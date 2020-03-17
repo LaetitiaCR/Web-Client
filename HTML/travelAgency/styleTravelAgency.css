@@ -1,102 +1,197 @@
-header#headTitre{
+p#pLiensHaut {
+    display: block;
+    left: 20%;
     position: absolute;
-    left:25%;
-    top:5%;   
 }
-header p#titreSite{
-  
-    display:inline;
+
+label#lblLiensHaut {
+    position: absolute;
+    display: inline;
     font-size: 2vw;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif;
 }
-header p span#point{
-    font-size: 100%;
+
+label span#point {
+    display: inline;
+    font-size: 4vw;
     color: coral;
 }
-nav#navLiensHaut{
+
+ul#listeLiensHaut {
     position: absolute;
-    left:50%;
-    top: 5%;
-}
-nav ul#groupeLiensHaut{
-    list-style-type:none; 
-    display: block; 
-}
-nav ul#groupeLiensHaut li{
     display: inline;
-    margin-left: 15px;
-} 
-nav ul#groupeLiensHaut li a {
+    left: 45%;
+    list-style-type: none;
+}
+
+ul#listeLiensHaut li {
+    display: inline;
+    margin-left: 25px;
+}
+
+ul#listeLiensHaut li a {
     font-size: 1vw;
-   
-    background:white;
-    color:black;
-    text-decoration:none;  
-}
-nav li a:hover {
-    color:grey;
-}  
-
-
-
-section#texteEtSurImage{  
-    display:block;
-    top: 15%;
-    position: absolute;
-    text-align: center;
-}
-img{
-    width: 85%;
-}
-section p#titreImg{
-    font-size:3vw;
-    top:15%;
-    position: absolute;
-    width:80%;
-    left:10%;   
-}
-section p span#titreImg1{
-    display: block;
-} 
-section p span#titreImg2{
-    display: block;
-    font-weight: bold;
+    background: white;
+    color: black;
+    text-decoration: none;
 }
 
-section div#parIci{
+li a:hover {
+    color: grey;
+}
+
+section#sectionTexteImageBouton {
     display: block;
     position: absolute;
-    top:55%;
-    left: 47.5%;  
+    width: 90vw;
+    height: 40vh;
 }
 
-button#boutIci{
-     background-color: darkorange;
-     color: white;
-     width: 6vw;
-     height:4vh;
-     border: darkorange;
-     
-}
-
-
-
-nav#navLiensBas{
-    display: block;
+img {
     position: absolute;
-   
-    top: 80%;
+    margin-top: 10%;
+    left: 5%;
+    width: 100%;
+    height: 100%;
+}
+
+section p#texteImg {
+    font-size: 2vw;
+    margin-top: 23vh;
+    position: absolute;
+    margin-left: 15%;
     width: 80%;
 }
 
-nav ul#groupeLiensBas{
-    list-style-type:none; 
-    display: block; 
+section p span#texteImg1 {
+    text-align: center;
+    display: block;
 }
-nav ul#groupeLiensBas li{
+
+section p span#texteImg2 {
+    text-align: center;
+    display: block;
+    font-weight: bold;
+}
+
+a#LienIci {
+    position: absolute;
+    background-color: darkorange;
+    color: white;
+    border: darkorange;
+    margin-top: 3%;
+    left: 42.5%;
+    line-height: 4vh;
+    height: 4vh;
+    width: 10vw;
+    font-size: 2vh;
+    text-align: center;
+    border-radius: 10vh;
+}
+
+nav#navLiensBas {
+    position: absolute;
+    display: block;
+    width: 90vw;
+    height: 25vh;
+    top: 60%;
+}
+
+nav ul#groupeLiensBas {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: block;
+}
+
+div#planifier,
+div#organiser,
+div#voyager {
     display: inline;
-    margin-left: 15px;
-} 
+}
 
+img#img1 {
+    margin-top: 20px;
+    position: absolute;
+    display: block;
+    width: 10%;
+    height: 10%;
+    left: 20%;
+    text-align: center;
+}
 
+img#img2 {
+    margin-top: 20px;
+    position: absolute;
+    display: block;
+    width: 10%;
+    height: 10%;
+    left: 45%;
+}
+
+img#img3 {
+    margin-top: 20px;
+    position: absolute;
+    display: block;
+    width: 10%;
+    height: 10%;
+    left: 70%;
+}
+
+a#lien1 {
+    display: block;
+    position: absolute;
+    left: 10%;
+    margin-top: 120px;
+    width: 30%;
+    text-align: center;
+}
+
+a#lien2 {
+    display: block;
+    width: 30%;
+    position: absolute;
+    left: 35%;
+    margin-top: 120px;
+    text-align: center;
+}
+
+a#lien3 {
+    display: block;
+    width: 30%;
+    position: absolute;
+    left: 60%;
+    margin-top: 120px;
+    text-align: center;
+}
+
+p#p1 {
+    font-size: 1em;
+    width: 20%;
+    position: absolute;
+    display: block;
+    left: 15%;
+    text-align: center;
+    margin-top: 150px;
+}
+
+p#p2 {
+    font-size: 1em;
+    width: 20%;
+    position: absolute;
+    display: block;
+    left: 40%;
+    margin-top: 150px;
+    text-align: center;
+}
+
+p#p3 {
+    font-size: 1em;
+    width: 20%;
+    position: absolute;
+    display: block;
+    left: 65%;
+    margin-top: 150px;
+    text-align: center;
+}
