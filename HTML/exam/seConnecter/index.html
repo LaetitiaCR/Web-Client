@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+
+
+    <title>Formulaire de connection</title>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+</head>
+
+<body>
+    <form id="frm" action="#" method="POST">
+        <div id="div1">
+            <p id="p1">Sign In</p>
+            <div id="sdiv1"></div>
+            <p>
+                <label for="userName">User Name :</label>
+                <input class="boutOrder" type="text" name="userName" id="userName" placeholder="johndoe">
+            </p>
+            <p>
+                <label for="pwd">Password :</label>
+                <input class="boutOrder" type="text" name="pwd" id="pwd" placeholder="********">
+            </p>
+        </div>
+
+        <div id="div2">
+            <label for="dev">Group</label>
+
+            <div id="sdiv21">
+                <p>
+                    <input type="radio" name="dev" id="devPrepa">
+                    <label for="devPrepa">AVC Dev</label>
+                </p>
+                <p>
+                    <input type="radio" name="dev" id="devWeb">
+                    <label for="devWeb">DWWM</label>
+                </p>
+                <p>
+                    <input type="radio" name="dev" id="devCda" checked="checked">
+                    <label for="devCda">CDA</label>
+                </p>
+            </div>
+
+
+            <div id="sdiv22">
+                <input class="boutOrder" type="button" name="signIn" id="signIn" value="SIGN IN">
+
+                <a class="boutOrder" id="lien" href="#">Forgot Password?</a>
+                <div id="sdiv221"></div>
+                <p id="p2">
+                    <label class="boutOrder" for="signUp">New User</label>
+                    <input class="boutOrder" type="button" name="signUp" id="signUp" value="SIGN UP">
+                </p>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

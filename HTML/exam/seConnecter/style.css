@@ -1,0 +1,54 @@
+form#frm {
+    border: 1px solid grey;
+    width: 70%;
+}
+
+#sdiv1,
+#sdiv221 {
+    margin-top: 2%;
+    width: 90%;
+    border-bottom: 2px solid rgb(201, 233, 235);
+}
+
+#sdiv21 {
+    width: 50%;
+    border: 1px solid gray;
+}
+
+#div1,
+#div2 {
+    display: block;
+    margin-left: 5%;
+}
+
+#div2 {
+    margin-top: 5%;
+}
+
+.boutOrder {
+    display: block;
+}
+
+#signIn,
+#signUp {
+    color: white;
+    background: rgb(97, 215, 219);
+    margin-left: 2%;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+}
+
+#signIn {
+    margin-top: 5%;
+}
+
+#p2 {
+    margin-top: 6%;
+}
+
+#lien {
+    margin-top: 4%;
+    color: rgb(168, 222, 226);
+}
