@@ -1,0 +1,30 @@
+ .lig {
+     position: absolute;
+     display: inline;
+     top: 2%;
+ }
+ 
+ .blo0 {
+     display: inline-block;
+ }
+ 
+ ul {
+     top: 80px;
+     list-style-type: none;
+ }
+ 
+ * {
+     font-size: 12px;
+     text-align: center;
+ }
+ 
+ li {
+     border: 1px solid blue;
+     width: 80px;
+     height: 80px;
+ }
+ 
+ .blo {
+     display: inline-block;
+     margin-top: 0px;
+ }
