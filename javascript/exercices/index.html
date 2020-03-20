@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+
+
+    <title>Html avec JS</title>
+
+
+
+</head>
+
+<body>
+
+    <p>
+        <label for="boutFonct">Lancer une fonction simple </label>
+        <input type="button" name="boutFonct" id="boutFonct" value="Mon bouton affiche fonction surface" onclick="afficheSurface();">
+    </p>
+
+
+    <p>
+        <label for="boutFonctCercle">Lancer une fonction simple complexe avec retour de valeur </label>
+        <input type="button" name="boutFonctCercle" id="boutFonctCercle" value="Mon bouton affiche fonction la surface du cercle ci-dessous" onclick="retourValeurCercle();">
+        <p id="retourValeur"></p>
+    </p>
+    <br>
+    <p>
+        <label for="boutFonctionSansParam">Lancer une fonction sans parametre avec retour de valeur </label>
+        <input type="button" name="boutFonctionSansParam" id="boutFonctionSansParam" value="Mon bouton affiche fonction sans parametre, retour de valeur 100 affiché ci-dessous " onclick="afficheFonctionSansParam();">
+        <p id="retourValeurFonctionSansParam"></p>
+        <label for="boutFonctionAvecUnParam">Lancer une fonction avec un parametre avec retour de valeur </label>
+        <input type="button" name="boutFonctionAvecUnParam" id="boutFonctionAvecUnParam" value="Mon bouton affiche fonction avec parametre, retour de valeur ci-dessous " onclick="afficheFonctionAvecUnParam(10);">
+        <p id="retourValeurFonctionAvecUnParam"></p>
+        <label for="boutFonctionAvecDeuxParam">Lancer une fonction avec un parametre avec retour de valeur </label>
+        <input type="button" name="boutFonctionAvecDeuxParam" id="boutFonctionAvecDeuxParam" value="Mon bouton affiche fonction avec parametre, retour de valeur ci-dessous " onclick="afficheFonctionAvecDeuxParam('un', 'deux');">
+        <p id="retourValeurFonctionAvecDeuxParam"></p>
+    </p>
+    <br>
+    <p>
+        <label for="tab">tableau avec parametre, affiche valeur + somme </label>
+        <input type="button" name="tab" id="boutFonctCercle" value="afficher" onclick="additionne();">
+
+    </p>
+    <br>
+    <p>
+        <label for="boucle01">affiche tableau avec boucle</label>
+        <input type="button" name="boucle01" id="boucle01" value="afficher boucle 1" onclick="boucle1();">
+    </p>
+    <p>
+        <label for="boucle02">affiche tableau avec boucle sur le nombre de cellule indiquée dans la boite de dialogue </label>
+        <input type="button" name="boucle02" id="boucle02" value="afficher boucle 2" onclick="boucle2();">
+    </p>
+
+    <script src="myfile.js"></script>
+</body>
+
+</html>
