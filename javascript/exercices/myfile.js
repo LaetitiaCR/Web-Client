@@ -11,7 +11,7 @@ function afficheSurface() {
 function changeBoutonFonction() {
     var boutF = document.getElementById('boutFonct');
     boutF.setAttribute('onclick', 'affichePerimetre();');
-    boutF.setAttribute('value', 'Mon bouton affiche fonction perimetre')
+    boutF.setAttribute('value', 'Mon bouton affiche fonction perimetre');
 }
 
 function affichePerimetre() {
@@ -81,3 +81,100 @@ function boucle2() {
     }
     alert('Les ' + nb + ' premières cellules du tableau sont : ' + cellules)
 }
+
+
+
+// divMouseMouve.setAttribute('onMouseOver', "changeCouleur();")
+
+
+
+function changeColorPRouge() {
+    var pMouseMouve = document.getElementById("p1");
+    pMouseMouve.setAttribute('style', 'color:red');
+}
+
+function changeColorPJaune() {
+    var pMouseMouve = document.getElementById("p1");
+    pMouseMouve.setAttribute('style', 'color:yellow');
+}
+
+function changeColorPBleu() {
+    var pMouseMouve = document.getElementById("p1");
+    pMouseMouve.setAttribute('style', 'color:blue');
+}
+
+function changeCouleur(strCouleur) {
+
+}
+
+
+
+
+
+var newLink = document.createElement('a');
+newLink.id = 'sdz_link';
+newLink.href = 'http://blog.crdp-versailles.fr/rimbaud/';
+newLink.title = 'Découvrez le blog de la Classe Actu !';
+newLink.setAttribute('tabindex', '10');
+document.getElementById('myP').appendChild(newLink);
+// le nouvel élément est le dernier enfant 
+// dans le paragraphe avec id 'myP'
+var newLinkText = document.createTextNode(" Le Tonnerre de Rimbaud");
+newLink.appendChild(newLinkText);
+// ces deux lignes pour ajouter le texte
+
+var link = document.getElementsByTagName('a')[0];
+var newLabel = document.createTextNode('et un hyperlien');
+link.replaceChild(newLabel, link.firstChild);
+
+
+newLink.setAttribute('tabindex', '10');
+document.getElementById('myP').appendChild(newLink); // le nouvel élément
+//est le dernier enfant dans le paragraphe avec id 'myP'
+var newLinkText = document.createTextNode(" Bis Le Tonnerre de Rimbaud");
+newLink.appendChild(newLinkText); // ces deux lignes pour ajouter le texte
+
+
+
+
+
+var newDiv = document.createElement('div');
+newDiv.id = 'divTP1';
+document.getElementById('divTP').appendChild(newDiv);
+
+var newDivText1 = document.createTextNode("Le");
+newDiv.appendChild(newDivText1);
+
+var newBaliseStrong1 = document.createElement('strong');
+var newDivText2 = document.createTextNode("World Wide Web Consortium");
+newDiv.appendChild(newBaliseStrong1).appendChild(newDivText2);
+
+var newDivText3 = document.createTextNode(', abrégé par le sigle ');
+newDiv.appendChild(newDivText3);
+
+var newBaliseStrong2 = document.createElement('strong');
+var newDivText4 = document.createTextNode('W3C');
+newDiv.appendChild(newBaliseStrong2).appendChild(newDivText4);
+
+
+
+
+
+
+var  newLink1  =  document.createElement('a');
+newLink1.href  =  'http://fr.wikipedia.org/wiki/Organisme_de_normalisation';
+newLink1.title  =  'Organisme de normalisation';
+document.getElementById('divTP').appendChild(newLink1);
+var  newLinkText1  =  document.createTextNode('organisme de standardisation');
+newLink1.appendChild(newLinkText1);  // ces deux lignes pour ajouter le texte
+
+var  newDivText2  =  document.createTextNode(' à but non-lucratif chargé de promouvoir la compatibilité des technologies du ');
+document.getElementById('divTP').appendChild(newDivText2);  // ces deux lignes pour ajouter le texte
+
+
+var  newLink2  =  document.createElement('a');
+newLink2.href  =  'http://fr.wikipedia.org/wiki/World_Wide_Web';
+newLink2.title  =  'World Wide Web';
+document.getElementById('divTP').appendChild(newLink2);
+var  newLinkText2  =  document.createTextNode('World Wide Web');
+newLink2.appendChild(newLinkText2);
