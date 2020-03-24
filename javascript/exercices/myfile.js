@@ -138,43 +138,89 @@ newLink.appendChild(newLinkText); // ces deux lignes pour ajouter le texte
 
 
 
+
+
 var newDiv = document.createElement('div');
-newDiv.id = 'divTP1';
-document.getElementById('divTP').appendChild(newDiv);
+newDiv.id = 'divTpUn';
+document.getElementById('divTp1').appendChild(newDiv);
 
-var newDivText1 = document.createTextNode("Le");
-newDiv.appendChild(newDivText1);
+var newDivTextUn = document.createTextNode("Le");
+newDiv.appendChild(newDivTextUn);
 
-var newBaliseStrong1 = document.createElement('strong');
-var newDivText2 = document.createTextNode("World Wide Web Consortium");
-newDiv.appendChild(newBaliseStrong1).appendChild(newDivText2);
+var newBaliseStrongUn = document.createElement('strong');
+var newDivTextDeux = document.createTextNode("World Wide Web Consortium");
+newDiv.appendChild(newBaliseStrongUn).appendChild(newDivTextDeux);
 
-var newDivText3 = document.createTextNode(', abrégé par le sigle ');
-newDiv.appendChild(newDivText3);
+var newDivTextTrois = document.createTextNode(', abrégé par le sigle ');
+newDiv.appendChild(newDivTextTrois);
 
-var newBaliseStrong2 = document.createElement('strong');
-var newDivText4 = document.createTextNode('W3C');
-newDiv.appendChild(newBaliseStrong2).appendChild(newDivText4);
-
-
+var newBaliseStrongDeux = document.createElement('strong');
+var newDivTextQuatre = document.createTextNode('W3C');
+newDiv.appendChild(newBaliseStrongDeux).appendChild(newDivTextQuatre);
 
 
 
+var  newLinkUnA  =  document.createElement('a');
+newLinkUnA.href  =  'http://fr.wikipedia.org/wiki/Organisme_de_normalisation';
+newLinkUnA.title  =  'Organisme de normalisation';
+document.getElementById('divTp1').appendChild(newLinkUnA);
+var  newLinkTextUn  =  document.createTextNode('organisme de standardisation');
+newLinkUnA.appendChild(newLinkTextUn);  // ces deux lignes pour ajouter le texte
 
-var  newLink1  =  document.createElement('a');
-newLink1.href  =  'http://fr.wikipedia.org/wiki/Organisme_de_normalisation';
-newLink1.title  =  'Organisme de normalisation';
-document.getElementById('divTP').appendChild(newLink1);
-var  newLinkText1  =  document.createTextNode('organisme de standardisation');
-newLink1.appendChild(newLinkText1);  // ces deux lignes pour ajouter le texte
-
-var  newDivText2  =  document.createTextNode(' à but non-lucratif chargé de promouvoir la compatibilité des technologies du ');
-document.getElementById('divTP').appendChild(newDivText2);  // ces deux lignes pour ajouter le texte
+var  newDivTextDeux  =  document.createTextNode(' à but non-lucratif chargé de promouvoir la compatibilité des technologies du ');
+document.getElementById('divTp1').appendChild(newDivTextDeux);  // ces deux lignes pour ajouter le texte
 
 
-var  newLink2  =  document.createElement('a');
-newLink2.href  =  'http://fr.wikipedia.org/wiki/World_Wide_Web';
-newLink2.title  =  'World Wide Web';
-document.getElementById('divTP').appendChild(newLink2);
-var  newLinkText2  =  document.createTextNode('World Wide Web');
-newLink2.appendChild(newLinkText2);
+var  newLinkDeux  =  document.createElement('a');
+newLinkDeux.href  =  'http://fr.wikipedia.org/wiki/World_Wide_Web';
+newLinkDeux.title  =  'World Wide Web';
+document.getElementById('divTp1').appendChild(newLinkDeux);
+var  newLinkTextDeux  =  document.createTextNode('World Wide Web');
+newLinkDeux.appendChild(newLinkTextDeux);
+
+
+
+
+
+
+
+
+var newDiv = document.createElement('div');
+newDiv.id = 'divTpDeux';
+document.getElementById('divTp2').appendChild(newDiv);
+
+
+var  newDeuxP  =  document.createElement('p');
+newDeuxP.id = 'divTpDeux';
+newDiv.appendChild(newDeuxP);
+var  newTextDeux  =  document.createTextNode('Langages basés sur ECMAScript :');
+newDeuxP.appendChild(newTextDeux); 
+
+var  newUl  =  document.createElement('ul');
+newUl.id  =  "ulDeux"
+newDeuxP.appendChild(newUl);
+
+var  newLi;
+var newLiXText;
+for  (var  i  =  0;  i  <  4;  i++)  {
+    newLi =  document.createElement('li');
+
+    newDeuxP.appendChild(newLi);
+
+    if  (i  ==  0)  {        
+        newLiXText   =   document.createTextNode('JavaScript');
+    } 
+    else  if  (i  ==  1)  {        
+        newLiXText   =   document.createTextNode('JScript');
+    } 
+    else  if  (i  ==  2)  {        
+        newLiXText   =   document.createTextNode('ActionScript');
+    } 
+    else  {        
+        newLiXText   =   document.createTextNode('EX4');
+    }
+
+    newLi.appendChild(newLiXText);
+    //newLi.innerHTML = 'un huj';
+    //newDeuxP.appendChild(newLi);
+}
