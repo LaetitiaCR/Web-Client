@@ -113,8 +113,8 @@ function ajaxAjouterUtilisateur() {
         //alert(pnom + pmail);
         //var data = "p1nom=" + pnom + "p2mail=" + pmail;
         donnees = "donneeName=" + name + "&donneesMail=" + email;
-        xhr.open('POST', 'ajoutClient.php', true);
-
+        //xhr.open('POST', 'ajoutClient.php', true);
+        xhr.open('POST', 'ajoutAjax.php', true);
         xhr.setRequestHeader("Content-Type", "application/x-www-formurlencoded");
 
         //alert(name + email);

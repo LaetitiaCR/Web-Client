@@ -79,12 +79,12 @@
             <p>Chez Travel Agency nous savons que voyager est une aventure humaine mais également un engagement financier important pour vous. C'est pourquoi nous mettons un point d'honneur à prendre en compte chacune de vos attentes pour vous aider dans
                 la préparation de votre séjour, circuit ou voyage sur mesure.</p>
 
-            <form name="formSaisie" onsubmit="">
+            <form name="formSaisie" onsubmit="" action="ajoutClient.php" method="POST">
                 <label for="name" id="idLblNom">Nom</label>
                 <input type="text" onblur="valideName()" id="name" name="nameNom" placeholder="Votre nom">
                 <label for="email" id="idLblMail">Email</label>
                 <input type="text" onblur="valideMail()" id="email" name="nameMail" placeholder="Votre email">
-                <input type="button" value="ajouter" onclick="ajaxAjouterUtilisateur()">
+                <input type="button" id="boutonAjax" value="ajouter" onclick="ajaxAjouterUtilisateur()">
                 <input type="submit" value="OK" class="button-3" id="bouton-3" onclick="">
             </form>
         </div>

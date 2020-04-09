@@ -13,48 +13,57 @@ try
    
 
     $bdd = new PDO($dsn, $user, $password);
-    $var1nom = $_POST[donneeName];
-    $var2mail="kio@jik.fr";
-    // $myarray = &$_POST ; 
-    //$var1nom=$myarray["p1nom"];
-    //$var2mail=$myarray["p2mail"];
-    //$var1nom=$_POST['name'];
-    //$var2mail=$_POST['email'];
+  
     
-    //if(isset($_POST['p1nom']) && isset($_POST['p2mail'])){
-    //if(isset($_POST['pnom1']) && isset($_POST['pmail2'])){
-    if (!empty($var1nom) && !empty(var2mail)){
-        //$reponse = $bdd->query('SELECT * FROM informations where name ='.$_POST['pseudo']. ' and mail='.$_POST['email']);
-        //$reponse = $bdd->query('SELECT * FROM clients  where login ='.$_POST['nameNom']. ' and mail='.$_POST['nameMail']);
+    if(isset($_POST['nameNom']) && isset($_POST['nameMail'])){
+
+        $slqPdoBind='SELECT * FROM clients where login = :login and mail = :mail';
+       
+        //$resultat=$req->fetch();
+        $reponse = $bdd->prepare($slqPdoBind);
+        //$sth->bindParam(':calories', $calories, PDO::PARAM_INT);
+        //$sth->bindParam(':couleur', $couleur, PDO::PARAM_STR, 12);
+        //echo $_POST['nameNom'];
+        $reponse->bindValue(':login', $_POST['nameNom']);
+        $reponse->bindValue(':mail', $_POST['nameMail']);
+        //$q->bindValue(':contacter', $contacter);
+        $reponse->execute();
+        $count = $reponse->rowCount();
+        //$total = $reponse->rowCount();
+        //$result = $reponse->fetchAll();
+
+        if ($count > 0){
+
+            $slqPdoBind = "UPDATE clients SET contacter = :contacter WHERE mail = :mail";
+            $aContacter = "O";
+            
+            $q = $bdd->prepare($slqPdoBind);
+            //$q->bindValue(':login', $_POST['nameNom']);
+            $q->bindValue(':mail', $_POST['nameMail']);
+            $q->bindValue(':contacter', $aContacter);
+           
         
-        //$reponse = $bdd->query('SELECT * FROM clients  where login ='.$_POST['pnom1']. ' and mail='.$_POST['pmail2']);
-        //$param1nom = $_POST['p1nom'];
-        //$param2mail = $_POST['p2mail'];
-        //$reponse = $bdd->query('SELECT * FROM clients  where login ='.$param1nom. ' and mail='.$param2mail);
-        $reponse = $bdd->query('SELECT * FROM clients  where login ='.$var1nom. ' and mail='.$var2mail);
-
-        if($reponse){
-
-            echo "résultats trouver pour cete requête";
+            $q->execute();
    
         }
         else{
+            
             echo "pas de resultat pour cette requête";
-            $sqlPdoBind = "INSERT INTO clients (login, mail, contacter) VALUES (:login, :mail, :contacter)";
-            $contacter = "N";
+            echo $_POST['nameNom'];
+            $slqPdoBind = "INSERT INTO clients (login, mail, contacter) VALUES (:login, :mail, :contacter)";
+            $aContacter = "N";
             //$q = $this->_bdd->prepare('INSERT INTO personnages(id, nom, degats) VALUES(:id, :nom, :degats)');
 
-            $q = $bdd->prepare(slqPdoBind);
-            $q->bindValue(':login', $var1nom);
-            $q->bindValue(':mail', $var2mail);
-            $q->bindValue(':contacter', $contacter);
+            $q = $bdd->prepare($slqPdoBind);
+            $q->bindValue(':login', $_POST['nameNom']);
+            $q->bindValue(':mail', $_POST['nameMail']);
+            $q->bindValue(':contacter', $aContacter);
            
           
 
             $q->execute();
 
             echo "La requete a été insérée";
-
         
         }
    
